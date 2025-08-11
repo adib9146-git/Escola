@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Global Colors */
+    --global-bg-1: #192335;
+    --global-bg-2: #2f57ef;
+    --global-bg-3: #2f57ef19;
+    --global-bg-4: #33cc79;
+    --global-bg-5: #3d64ff;
+    --global-bg-6: #be66f9;
+    --global-bg-7: #d9d9d9;
+    --global-bg-8: #d9d9d94c;
+    --global-bg-9: #e3f8fb;
+    --global-bg-10: #f3f6fb;
+    --global-bg-11: #f5e6fd;
+    --global-bg-12: #f8bc26;
+    --global-bg-13: #ffe6e2;
+    --global-bg-14: #fff9df;
+    --global-bg-15: #ffffff;
+    
+    --global-text-1: #151718;
+    --global-text-2: #192335;
+    --global-text-3: #192335b7;
+    --global-text-4: #2f57ef;
+    --global-text-5: #6864ed;
+    --global-text-6: #ffffff;
+    
+    /* Header Colors */
+    --header-bg-1: #25c6da;
+  }
+}
+
+@layer utilities {
+  /* Global Background Colors */
+  .bg-global-1 { background-color: var(--global-bg-1); }
+  .bg-global-2 { background-color: var(--global-bg-2); }
+  .bg-global-3 { background-color: var(--global-bg-3); }
+  .bg-global-4 { background-color: var(--global-bg-4); }
+  .bg-global-5 { background-color: var(--global-bg-5); }
+  .bg-global-6 { background-color: var(--global-bg-6); }
+  .bg-global-7 { background-color: var(--global-bg-7); }
+  .bg-global-8 { background-color: var(--global-bg-8); }
+  .bg-global-9 { background-color: var(--global-bg-9); }
+  .bg-global-10 { background-color: var(--global-bg-10); }
+  .bg-global-11 { background-color: var(--global-bg-11); }
+  .bg-global-12 { background-color: var(--global-bg-12); }
+  .bg-global-13 { background-color: var(--global-bg-13); }
+  .bg-global-14 { background-color: var(--global-bg-14); }
+  .bg-global-15 { background-color: var(--global-bg-15); }
+  
+  /* Global Text Colors */
+  .text-global-1 { color: var(--global-text-1); }
+  .text-global-2 { color: var(--global-text-2); }
+  .text-global-3 { color: var(--global-text-3); }
+  .text-global-4 { color: var(--global-text-4); }
+  .text-global-5 { color: var(--global-text-5); }
+  .text-global-6 { color: var(--global-text-6); }
+  
+  /* Header Colors */
+  .bg-header-1 { background-color: var(--header-bg-1); }
+}
